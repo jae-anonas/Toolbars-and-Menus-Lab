@@ -32,11 +32,12 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:padding="5dp">
             <ImageView
                 android:id="@+id/imgView"
-                android:layout_width="65dp"
-                android:layout_height="65dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_marginRight="10dp"
@@ -63,8 +64,9 @@
                 android:layout_below="@id/txtTitle"/>
 
             <ImageView
-                android:layout_width="45dp"
-                android:layout_height="45dp"
+                android:id="@+id/imgView2"
+                android:layout_width="38dp"
+                android:layout_height="38dp"
                 android:layout_alignParentRight="true"
                 android:layout_alignParentEnd="true"
                 android:src="@android:color/white"
